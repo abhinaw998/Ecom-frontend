@@ -1,6 +1,6 @@
 
 import { Outlet, Navigate} from "react-router-dom";
-import UserChat from "./Users/UserChat";
+import UserChat from "./Users/Chat/UserChat";
 import { ROUTES } from "../Constent";
 
 const ProtectedRoutesComponent = ({admin})=>{

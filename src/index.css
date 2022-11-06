@@ -4,5 +4,10 @@ html{
 }
 
 body{
-    margin: 10rem;
+    margin: 1rem;
+    background: rgb(179, 128, 62);
+}
+
+#root{
+    background-color: #efede0;
 }

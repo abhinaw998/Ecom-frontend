@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import UserChat from "./UserChat";
+import UserChat from "./Chat/UserChat";
 
 import (Outlet)
 
