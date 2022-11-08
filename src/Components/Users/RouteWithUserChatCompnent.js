@@ -1,7 +1,6 @@
-import { Outlet } from "react-router-dom";
+import {Outlet } from "react-router-dom";
 import UserChat from "./Chat/UserChat";
 
-import (Outlet)
 
 const RouteWithUserChatCompnent = ()=>{
     return (

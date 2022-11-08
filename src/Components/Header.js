@@ -62,7 +62,7 @@ const Header = () => {
 						<LinkContainer to={ROUTES.CART}>
 							<Nav.Link href="#pricing">
 								Cart
-								<i class="bi bi-cart">
+								<i className="bi bi-cart">
 									<Badge pill bg="danger">
 										2
 									</Badge>

@@ -9,7 +9,7 @@ const UserChat = () => {
         <>
         <label className='chat-btn'>
             {!openChat && <i className="bi bi-chat-dots" onClick={handleChatOpenClose}/>} 
-             <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"><span class="visually-hidden"></span></span>
+             <span className="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"><span className="visually-hidden"></span></span>
             {openChat && <i className="bi bi-x-circle" onClick={handleChatOpenClose}/>}
         </label>
         {openChat && <div className="chat-wrapper">
@@ -38,7 +38,7 @@ const UserChat = () => {
             
             
           </textarea>
-                 <button className=" send-button btn-success btn-block"><i class="bi bi-send-fill"></i></button>
+                 <button className=" send-button btn-success btn-block"><i className="bi bi-send-fill"></i></button>
           </div>
 
           
